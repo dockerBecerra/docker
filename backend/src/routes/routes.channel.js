@@ -14,5 +14,12 @@ channelRoute.get("/canal", (req, res) => {
         type: "Backend"
     })
 })
+channelRoute.get("/candal", (req, res) => {
+    res.json({
+        msg: "Hola mundo",
+        application: "Youtube",
+        type: "Backend"
+    })
+})
 
 export default channelRoute;
